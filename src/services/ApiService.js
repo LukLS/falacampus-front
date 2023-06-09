@@ -7,7 +7,7 @@ export const TOKEN = "token";
 const baseURL = process.env.REACT_APP_API_URL;
 
 export const httpClient = axios.create({
-    baseURL:'https://falacampus-front.vercel.app/',
+    baseURL:'https://falacampus-back.vercel.app/',
     withCredentials: true,
 });
 
