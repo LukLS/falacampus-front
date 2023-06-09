@@ -7,7 +7,7 @@ export const TOKEN = "token";
 const baseURL = process.env.REACT_APP_API_URL;
 
 export const httpClient = axios.create({
-    baseURL:'http://localhost:8080/api',
+    baseURL:'https://stunning-tulumba-1e91a4.netlify.app/api',
     withCredentials: true,
 });
 
